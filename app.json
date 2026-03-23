@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Blodroed Notes",
+    "slug": "blodroed-notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#8B0000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.blodroed.notes"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#8B0000"
+      },
+      "package": "com.blodroed.notes",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-camera"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e82e78a1-1b37-4504-9049-e74c28fee4dd"
+      }
+    }
+  }
+}
